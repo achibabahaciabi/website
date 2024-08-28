@@ -1,17 +1,19 @@
 /* styles.css */
+
+/* Default styles (desktop) */
 body {
     font-family: "Space Mono", monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #121212; /* Dark background for the whole page */
-    color: #e0e0e0; /* Light text color for better contrast */
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #7e24ab; /* Purplish color for the header */
+    background-color: #7e24ab;
     color: #e0e0e0;
-    padding: 1rem; /* Reduced padding to half the original size */
+    padding: 1rem;
     text-align: center;
 }
 
@@ -49,24 +51,26 @@ main {
 
 section {
     margin-bottom: 2rem;
-    background-color: #2e2e2e; /* Lighter dark background for sections */
+    background-color: #2e2e2e;
     padding: 2rem;
     border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-/* Center-align content of the Apps section */
 section#apps {
-    text-align: center; /* Center-align text content */
+    text-align: center;
 }
 
 section#apps img,
 section#apps iframe {
+    max-width: 100%;
+    height: auto; /* Ensure the image scales properly */
     display: block;
-    margin: 0 auto; /* Center-align image and iframe */
+    margin: 0 auto;
 }
 
 section a {
-    color: #e0e0e0; /* Default link color */
+    color: #e0e0e0;
     text-decoration: none;
 }
 
@@ -75,36 +79,70 @@ section a:focus {
     text-decoration: underline;
 }
 
-/* Specific link colors */
 section#apps a[href*="instagram.com"] {
-    color: #ff5722; /* Color for Instagram link */
+    color: #ff5722;
 }
 
 section#apps a[href*="itch.io"] {
-    color: #e91e63; /* Color for itch.io link */
+    color: #e91e63;
 }
 
-/* Hover effects for specific links */
 section#apps a[href*="instagram.com"]:hover {
-    color: #ff3d00; /* Darker color on hover for Instagram link */
+    color: #ff3d00;
 }
 
 section#apps a[href*="itch.io"]:hover {
-    color: #d81b60; /* Darker color on hover for itch.io link */
+    color: #d81b60;
 }
 
 footer {
-    background-color: #9595e0; /* Purplish color for the footer */
+    background-color: #9595e0;
     color: #e0e0e0;
     text-align: center;
     padding: 1rem;
+    border-top: 2px solid #e0e0e0;
 }
 
-/* Responsive Design */
+/* Responsive Design for tablets and mobile phones */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
         margin: 0.5rem 0;
+    }
+
+    header, footer {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+
+    main {
+        padding: 1rem; /* Reduce padding for smaller screens */
+    }
+
+    section {
+        padding: 1rem; /* Adjust padding for smaller screens */
+        margin-bottom: 1rem; /* Adjust margin for smaller screens */
+    }
+
+    /* Ensure iframes and images are responsive */
+    section#apps img,
+    section#apps iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsive Design for very small devices */
+@media (max-width: 480px) {
+    nav ul li {
+        font-size: 1rem; /* Adjust font size for very small screens */
+    }
+
+    header, footer {
+        font-size: 0.875rem; /* Adjust font size for very small screens */
+    }
+
+    section {
+        font-size: 0.875rem; /* Adjust font size for better readability on small screens */
     }
 }
 
