@@ -11,12 +11,22 @@ body {
 }
 
 header {
-    background-color: #7e24ab;
-    color: #e0e0e0;
-    padding: 1rem;
+  /*  background-color: #7e24ab; */
+   /* color: #e0e0e0;*/
+   /* padding: 1rem;*/
     text-align: center;
 }
 
+header img {
+    width: 100%; /* Makes the image scale to fit the header width */
+    height: auto; /* Maintains the image aspect ratio */
+    display: block; /* Removes any default spacing below the image */
+}
+
+
+ul {
+  list-style: none;
+}
 nav {
     background-color: #9595e0;
     color: #e0e0e0;
