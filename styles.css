@@ -139,6 +139,12 @@ footer {
         width: 100%;
         height: auto;
     }
+
+      /* Align lists to the left on mobile devices */
+    section#apps ul {
+        text-align: left; /* Remove centering for lists */
+        padding-left: 1rem; /* Add some padding to avoid touching the edges */
+    }
 }
 
 /* Responsive Design for very small devices */
