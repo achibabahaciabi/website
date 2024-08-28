@@ -4,18 +4,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #e0e0e0; /* Light text color for better contrast */
 }
 
 header {
-    background-color: #72787e;
-    color: #fff;
-    padding: 2rem;
+    background-color: #7e24ab; /* Purplish color for the header */
+    color: #e0e0e0;
+    padding: 1rem; /* Reduced padding to half the original size */
     text-align: center;
 }
 
 nav {
-    background-color: #444;
-    color: #fff;
+    background-color: #9595e0;
+    color: #e0e0e0;
 }
 
 nav ul {
@@ -31,12 +33,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a:focus {
     text-decoration: underline;
 }
 
@@ -46,28 +49,62 @@ main {
 
 section {
     margin-bottom: 2rem;
-}
-
-section#projects, section#about, section#contact {
-    background-color: #f4f4f4;
+    background-color: #2e2e2e; /* Lighter dark background for sections */
     padding: 2rem;
     border-radius: 8px;
 }
 
-section#contact a {
-    color: #0066cc;
+/* Center-align content of the Apps section */
+section#apps {
+    text-align: center; /* Center-align text content */
+}
+
+section#apps img,
+section#apps iframe {
+    display: block;
+    margin: 0 auto; /* Center-align image and iframe */
+}
+
+section a {
+    color: #e0e0e0; /* Default link color */
     text-decoration: none;
 }
 
-section#contact a:hover {
+section a:hover,
+section a:focus {
     text-decoration: underline;
 }
 
+/* Specific link colors */
+section#apps a[href*="instagram.com"] {
+    color: #ff5722; /* Color for Instagram link */
+}
+
+section#apps a[href*="itch.io"] {
+    color: #e91e63; /* Color for itch.io link */
+}
+
+/* Hover effects for specific links */
+section#apps a[href*="instagram.com"]:hover {
+    color: #ff3d00; /* Darker color on hover for Instagram link */
+}
+
+section#apps a[href*="itch.io"]:hover {
+    color: #d81b60; /* Darker color on hover for itch.io link */
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #9595e0; /* Purplish color for the footer */
+    color: #e0e0e0;
     text-align: center;
     padding: 1rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
 
