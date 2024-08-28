@@ -1,10 +1,73 @@
+/* styles.css */
 body {
-  background-color: white;
-   font-family: "Space Mono", monospace;
-
-
-
-
- 
+    font-family: "Space Mono", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+header {
+    background-color: #72787e;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section#projects, section#about, section#contact {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+section#contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
 
