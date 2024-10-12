@@ -1,5 +1,3 @@
-/* styles.css */
-
 /* Default styles (desktop) */
 body {
     font-family: "Space Mono", monospace;
@@ -11,22 +9,29 @@ body {
 }
 
 header {
-  /*  background-color: #7e24ab; */
-   /* color: #e0e0e0;*/
-   /* padding: 1rem;*/
     text-align: center;
 }
 
 header img {
-    width: 100%; /* Makes the image scale to fit the header width */
-    height: auto; /* Maintains the image aspect ratio */
-    display: block; /* Removes any default spacing below the image */
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
+/* Add spacing between articles in the 'apps' section */
+.app {
+    margin-bottom: 200px; /* Adds space between each app/article */
+}
+
+/* Add specific space before the second article (Pencere) */
+.app:nth-of-type(2) {
+    margin-top: 50px; /* Adds space before the second article */
+}
 
 ul {
   list-style: none;
 }
+
 nav {
     background-color: #9595e0;
     color: #e0e0e0;
@@ -74,7 +79,7 @@ section#apps {
 section#apps img,
 section#apps iframe {
     max-width: 100%;
-    height: auto; /* Ensure the image scales properly */
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -140,7 +145,7 @@ footer {
         height: auto;
     }
 
-      /* Align lists to the left on mobile devices */
+    /* Align lists to the left on mobile devices */
     section#apps ul {
         text-align: left; /* Remove centering for lists */
         padding-left: 1rem; /* Add some padding to avoid touching the edges */
@@ -161,4 +166,5 @@ footer {
         font-size: 0.875rem; /* Adjust font size for better readability on small screens */
     }
 }
+
 
