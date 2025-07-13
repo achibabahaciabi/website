@@ -167,4 +167,18 @@ footer {
     }
 }
 
+pre {
+  background-color: #1e1e1e; /* dark background */
+  color: #d4d4d4; /* light text */
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: 'Space Mono', monospace, monospace;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  max-height: 400px; /* limit height for big blocks */
+}
+
+code {
+  white-space: pre-wrap; /* wrap lines */
+}
 
