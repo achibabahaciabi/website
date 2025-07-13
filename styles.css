@@ -16,6 +16,14 @@ header img {
     width: 100%;
     height: auto;
     display: block;
+     }
+
+
+     img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
 }
 
 /* Add spacing between articles in the 'apps' section */
