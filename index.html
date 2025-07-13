@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gökalp Kurtul - Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" />
 </head>
 <body>
     <header>
-        <img src="https://lh3.googleusercontent.com/pw/AP1GczNvaLnm4Se8WhAc4DVRFgddn5GTWMQxFj8VcYQF4jsof83PSOadXjBznh5kOB8becs6YMKpKpatrdQKWIVPqHpHByXaJ2F4H2Mc9n8TC7pkOyP6jnH6M-k42Jrw770PCiHl8g6uEa-adQzb52aD_Why=w1600-h348-s-no?authuser=0" alt="Description">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNvaLnm4Se8WhAc4DVRFgddn5GTWMQxFj8VcYQF4jsof83PSOadXjBznh5kOB8becs6YMKpKpatrdQKWIVPqHpHByXaJ2F4H2Mc9n8TC7pkOyP6jnH6M-k42Jrw770PCiHl8g6uEa-adQzb52aD_Why=w1600-h348-s-no?authuser=0" alt="Description" />
     </header>
 
     <nav>
         <ul>
             <li><a href="#apps">Apps</a></li>
+            <li><a href="#projects">Projects</a></li>  <!-- New Projects link -->
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -33,16 +34,14 @@
                     <li>Save as .obj file.</li>
                     <li>Additional instructions are provided in its menu.</li>
                 </ul>
-                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTY4NS5wbmc=/794x1000/KTTxic.png">
-                 <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTcxMC5wbmc=/794x1000/1pgMO%2F.png">
-                  <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTczNS5wbmc=/794x1000/sQZYd8.png">
-                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzQwNjI3NS5naWY=/794x1000/Fo5F76.gif" alt="Cubo Retro GIF">
-                <p>Instagram: <a href="https://www.instagram.com/cubo.the.retro.tool/" target="_blank">cubo</a></p>
-                <p>download it from Itch.io: <a href="https://achibaba.itch.io/cubo" target="_blank">itch.io/achibaba</a></p>
-               
+                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTY4NS5wbmc=/794x1000/KTTxic.png" />
+                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTcxMC5wbmc=/794x1000/1pgMO%2F.png" />
+                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzcyOTczNS5wbmc=/794x1000/sQZYd8.png" />
+                <img src="https://img.itch.zone/aW1hZ2UvMjkwOTY3OS8xNzQwNjI3NS5naWY=/794x1000/Fo5F76.gif" alt="Cubo Retro GIF" />
+                <p>Instagram: <a href="https://www.instagram.com/cubo.the.retro.tool/" target="_blank" rel="noopener noreferrer">cubo</a></p>
+                <p>download it from Itch.io: <a href="https://achibaba.itch.io/cubo" target="_blank" rel="noopener noreferrer">itch.io/achibaba</a></p>
             </article>
 
-            <!-- Second article (Pencere) with extra margin-top -->
             <article class="app">
                 <p><strong>Pencere</strong>: Simple Png editor.</p>
                 <ul>
@@ -50,29 +49,328 @@
                     <li>Undo for every operation.</li>
                     <li>Save / load png files.</li>
                 </ul>
-  <img src="https://img.itch.zone/aW1hZ2UvMzAzNDk2OC8xODE1MDk0OC5wbmc=/794x1000/EtvJAr.png">
-               <p> download it from Itch.io: <a href="https://achibaba.itch.io/pencere-png-editor" target="_blank">itch.io/achibaba</a></p>
+                <img src="https://img.itch.zone/aW1hZ2UvMzAzNDk2OC8xODE1MDk0OC5wbmc=/794x1000/EtvJAr.png" />
+                <p>download it from Itch.io: <a href="https://achibaba.itch.io/pencere-png-editor" target="_blank" rel="noopener noreferrer">itch.io/achibaba</a></p>
             </article>
+        </section>
+
+        <section id="projects">
+            <article class="app">
+                <p><strong>ESP32 Drum Step Sequencer</strong>: Here is my ESP32 project — a 16-step drum sequencer. It's easy to get the parts: 4x4 matrix buttons, a rotary encoder, SD card reader, and a 128x64 OLED display. You can download the full .ino zip file below.</p>
+
+                <ul>
+                    <li>Kick, Snare, Hi-Hat samples</li>
+                    <li>Bluetooth A2DP output</li>
+                    <li>Real-time step sequencing via matrix buttons</li>
+                    <li>SD card support for loading custom samples</li>
+                    <li>Rotary encoder UI with OLED feedback</li>
+                    <li>Adjustable BPM</li>
+                </ul>
+
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPlTGezIBtwd6REN8dDCsolHZCXP5pEsw0khvIVK0LPsQVTJnzzKDbD8p12SMS2BkcLQvY7t5dSRdVMfh2cBYKfJmIdMpencLPeFR77X4GavBZrvtI5A3GkF7iXoPKiYahKqQ5vIYD0E2ETg8gFK2z1sFiNubWsltebyod-R5QhYgnVl4KP_N8jxsLmNwLAYosIWRjqeNN3LgB6ZArAa_rql6GAcTeXcn2lkPxlBULgB8jqj-P6oLOBlslBK6QdC0xzTJ70DbZlVuEwVV0Bi0DrICUVgrTOFbWfF4cOYhI8X35USLr6LKHIgHvStZV_82SjdxJrcslPi4leCl80Ipd2f-IOG7zkpi1JLSEl0_GLggxbncgLKE5xwpzzJkXdw9UWC4qK2-Uv3iAQuSjmfkDZsbgGlGeNmhLcppyU9jQiXU-5mbFLwm7HX6APi7r-Zlh8XlTLUGLGuRU0rUENmSR4EGvmxmTMkYfPz9bloR4lDIs_0xCFEFs2-0QZwh-FnDh0l9MfIpsVsgGkXoZp0Glck4VarYtwBTIRZ0pUL3cd-op7tp_lqiI54jnfu7vFFvfVB-pRzv_Drn7HCLveBEM0xmlE5LXlh2WgSG_19sXsvg6gX_N5Q9CQIzbJvnQHLh7vk4VzxVBZpdKXkQ7EzIIayuAHcqp2ZaABQbBjjA2rmFSj_RQE5BLVTHVAx_Fo9RYmLBhZ9fa6CEiBRntG43QSxhwvAT_7IxPJQ2OqF1ZxAZ7kgMrhMLJAOzMzE7ZlP5Y2ZUTjzIyfq9mxCSwv-9QHPnLnBgP6hGIKybInzXh2nRzvvolOJUDG1H7sM2l430NjBJNBIu0XhRDSctJMvLCSrE5LUrk6bil02YEUWy4P16anDsUZQOGTpoQuHym-71b7zA=w618-h826-s-no?authuser=0" alt="ESP32 Drum Sequencer Front" />
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczP_QZZmwiabQWL0GbfgqfSjxiLKwh0OeH6r-QFhDrS9-yPHaMJNpJW419oW5_XFoFkWsUbPnB-02cS6Loas1GAh9Hcfpy3h6IiohHYvRVnwf8lkG13vO_rYJVmQ4c2hPtY7V64NhwzCeRCwd3t5E9FymN9h6zu-8dambzzgf8YYVebL2j0vvGB8Fls3AEbjLJQ29ibZ6EPu-nIGbGE86xttYX6kjacUivVlWDVwI9ZxLFVd9bCgZQMLwaOLfeCrrCRULyvcIMpcrhb1bC896ktC99dBpsw3Gs37aiH_POVC-LUPL1axs7kbvTr76LezP1F8C_uWhsOk4ZjlLrH3TZmPbQpq8PJFXfZ1e6GnM3iBLjmUS7RBfumG48D9zKFMQWLLnIlZoM_b8ebDctZSMP4pUoyNfOIaFO6bDtwpjeVvjYe3zCR3xcP-lZyyR2Nmvikcf6DpmzfJIf5olQNHOpwqfJ86UExa7skwK23F_PeOjeuwYQZjGQeiGOXAKbTwmxk4aqtWc_1rBt6Rqe8qTx5CIdQGl9ZcAX4RLrojDG2zvlqn_NDy6xZqLPyatsA8y4Ue8Wt_vTAJHkcGy7bXrcnqEL2EH437g-RQMvCkDp7eTyVrrzfqBpSjdG8PNSj3qyWKymRC6UNK7Rad_vJkZGm0Ay8Iy4FEs82iFkcUvcAEs-4msH5hmJ2xDY360ik-ajuC0EOui1NUS74paf7OGOQpy5QBc1zf7MMRGnluzjlwm391_9mA8Z7wvMr88R_xukny_om-obwnyB-jQOIx5o71BXhTc3xp9LOJrI9LEy4Vz9pFkIVT8FjtQsgmGdiqBzmBUvdNp80uRF64w4eWFWzhcCqVML7tfwL8HNL-AzFuWLZmG3ZOqt0jTysFSZcLMpXWhA=w902-h1204-s-no?authuser=0" alt="ESP32 Drum Sequencer Display" />
+
+        <p>
+  <a href="https://github.com/achibabahaciabi/step-sequencer" target="_blank">
+    📂  Main ino code is below , view Full Code on GitHub
+  </a>
+</p>
+
+ 
+                <pre style="white-space: pre-wrap; overflow-x: auto;"><code>
+#include &lt;Arduino.h&gt;
+#include &lt;BluetoothA2DPSource.h&gt;
+
+#include &lt;U8g2lib.h&gt;
+#include &lt;Wire.h&gt;
+
+#include "kick.h"
+#include "snare.h"
+#include "hihat.h"
+
+#include &lt;SPI.h&gt;
+
+#include "SDCard.h"
+#include "Tus.h"
+#include "RotaryEncoder.h"
+
+// --- Keypad Setup
+Tus tus;
+// --- Rotary Encoder Pins
+RotaryEncoder encoder; // uses default pins: 32, 33, 25
+
+enum UIState { NAVIGATE, BPM_EDIT, SUB_SD_KICK ,SUB_SD_SNARE,SUB_SD_HIHAT};
+UIState uiState = NAVIGATE;
+
+enum Instrument { KICK, SNARE, HIHAT };
+Instrument currentInstrument = KICK;
+
+enum MenuItem { MENU_KICK, MENU_SNARE, MENU_HIHAT, MENU_BPM, MENU_COUNT };
+MenuItem rotatedItem = MENU_KICK;
+
+enum KickType { STANDARD_KICK, SD_DATA_SAMPLE_KICK };
+KickType currentKick = STANDARD_KICK;
+
+enum SnareType { STANDARD_SNARE, SD_DATA_SAMPLE_SNARE };
+SnareType currentSnare = STANDARD_SNARE;
+
+enum HihatType { STANDARD_HIHAT, SD_DATA_SAMPLE__HIHAT };
+HihatType currentHihat = STANDARD_HIHAT;
+
+SDCard sd;
+#define SAMPLE_SIZE (13 * 1024 / 2)
+
+int sampleLength1_sd_kick = 0;
+int16_t buffer1_sd_kick[SAMPLE_SIZE];
+int index_sd_kick = 0;
+
+int sampleLength2_sd_snare = 0;
+int16_t buffer2_sd_snare [SAMPLE_SIZE];
+int index_sd_snare = 0;
+
+int sampleLength3_sd_hihat= 0;
+int16_t buffer3_sd_hihat [SAMPLE_SIZE];
+int index_sd_hihat = 0;
+
+#define OLED_SDA 4
+#define OLED_SCL 15
+U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
+
+BluetoothA2DPSource a2dp_source;
+const int sampleRate = 44100;
+float bpm = 60.0f;
+int step_duration_samples = (int)((60.0f / bpm / 4.0f) * sampleRate);
+
+const int NUM_STEPS = 16;
+bool kick_steps[NUM_STEPS] = {false};
+bool snare_steps[NUM_STEPS] = {false};
+bool hihat_steps[NUM_STEPS] = {false};
+int current_step = 0;
+size_t sample_in_step = 0;
+
+bool playing_kick = false, playing_snare = false, playing_hihat = false;
+size_t kick_sample_index = 0, snare_sample_index = 0, hihat_sample_index = 0;
+
+int32_t audio_data_callback(uint8_t *data, int32_t len) {
+  int16_t *buffer = (int16_t *)data;
+  int samples = len / 2;
+
+  for (int i = 0; i &lt; samples; i++) {
+    if (sample_in_step == 0) {
+      if (kick_steps[current_step]) { playing_kick = true; kick_sample_index = 0; }
+      if (snare_steps[current_step]) { playing_snare = true; snare_sample_index = 0; }
+      if (hihat_steps[current_step]) { playing_hihat = true; hihat_sample_index = 0; }
+    }
+
+    int32_t sample = 0;
+
+    if (playing_kick) {
+      if (currentKick == STANDARD_KICK &amp;&amp; kick_sample_index &lt; kick_data_len) {
+        sample += kick_data[kick_sample_index++];
+      } else if (currentKick == SD_DATA_SAMPLE_KICK &amp;&amp; kick_sample_index &lt; sampleLength1_sd_kick) {
+        sample += buffer1_sd_kick[kick_sample_index++];
+      } else playing_kick = false;
+    }
+
+    if (playing_snare) {
+      if (currentSnare == STANDARD_SNARE &amp;&amp; snare_sample_index &lt; snare_data_len) {
+        sample += snare_data[snare_sample_index++];
+      } else if (currentSnare == SD_DATA_SAMPLE_SNARE &amp;&amp; snare_sample_index &lt; sampleLength2_sd_snare) {
+        sample += buffer2_sd_snare[snare_sample_index++];
+      } else playing_snare = false;
+    }
+
+    if (playing_hihat) {
+      if (currentHihat == STANDARD_HIHAT &amp;&amp; hihat_sample_index &lt; hihat_data_len) {
+        sample += hihat_data[hihat_sample_index++];
+      } else if (currentHihat == SD_DATA_SAMPLE__HIHAT &amp;&amp; hihat_sample_index &lt; sampleLength3_sd_hihat) {
+        sample += buffer3_sd_hihat[hihat_sample_index++];
+      } else playing_hihat = false;
+    }
+
+    sample = constrain(sample, -32768, 32767);
+    buffer[i] = (int16_t)sample;
+
+    sample_in_step++;
+    if (sample_in_step &gt;= step_duration_samples) {
+      sample_in_step = 0;
+      current_step = (current_step + 1) % NUM_STEPS;
+    }
+  }
+
+  return len;
+}
+
+void drawSequencerState() {
+  u8g2.clearBuffer();
+  u8g2.setFont(u8g2_font_5x7_tr);
+  char status[32] = "";
+
+  u8g2.drawStr(0, 7, "Kck");
+  u8g2.drawStr(0, 23, "Snr");
+  u8g2.drawStr(0, 39, "Hht");
+
+  for (int i = 0; i &lt; NUM_STEPS; i++) {
+    int x = 20 + i * 6;
+    if (kick_steps[i]) u8g2.drawBox(x, 0, 5, 5); else u8g2.drawFrame(x, 0, 5, 5);
+    if (snare_steps[i]) u8g2.drawBox(x, 16, 5, 5); else u8g2.drawFrame(x, 16, 5, 5);
+    if (hihat_steps[i]) u8g2.drawBox(x, 32, 5, 5); else u8g2.drawFrame(x, 32, 5, 5);
+  }
+
+  int cursorX = 20 + current_step * 6;
+  u8g2.drawLine(cursorX, 0, cursorX, 38);
+
+  if (uiState == NAVIGATE) {
+    switch (rotatedItem) {
+      case MENU_KICK: strcpy(status, "SELECT: KICK"); break;
+      case MENU_SNARE: strcpy(status, "SELECT: SNARE"); break;
+      case MENU_HIHAT: strcpy(status, "SELECT: HIHAT"); break;
+      case MENU_BPM: sprintf(status, "SELECT: BPM (%.0f)", bpm); break;
+    }
+  } else if (uiState == BPM_EDIT) {
+    sprintf(status, "EDIT BPM: %.0f", bpm);
+  } else if (uiState == SUB_SD_KICK) {
+    strcpy(status, sd.sampleNames[index_sd_kick].c_str());
+  } else if (uiState == SUB_SD_SNARE) {
+    strcpy(status, sd.sampleNames[index_sd_snare].c_str());
+  } else if (uiState == SUB_SD_HIHAT) {
+    strcpy(status, sd.sampleNames[index_sd_hihat].c_str());
+  }
+
+  u8g2.drawStr(0, 60, status);
+  u8g2.sendBuffer();
+}
+
+void setup() {
+  Serial.begin(115200);
+  sd.begin();
+  sd.saveSampleNames("/seq");
+  sd.printStoredFileNames();
+
+  Wire.begin(OLED_SDA, OLED_SCL);
+  u8g2.begin();
+
+  encoder.begin();
+
+  a2dp_source.set_local_name("ESP32_DrumSeq");
+  a2dp_source.set_data_callback(audio_data_callback);
+  a2dp_source.start("NOVA MINI");
+}
+
+void loop() {
+  encoder.loop();
+
+  if (encoder.wasButtonPressed()) {
+    switch (uiState) {
+      case NAVIGATE:
+        if (rotatedItem == MENU_KICK) uiState = SUB_SD_KICK;
+        else if (rotatedItem == MENU_SNARE) uiState = SUB_SD_SNARE;
+        else if (rotatedItem == MENU_HIHAT) uiState = SUB_SD_HIHAT;
+        else if (rotatedItem == MENU_BPM) uiState = BPM_EDIT;
+        break;
+
+      case BPM_EDIT:
+        uiState = NAVIGATE;
+        break;
+
+      case SUB_SD_KICK:
+        if (sd.readSampleToBuffer16Bit(index_sd_kick, buffer1_sd_kick, SAMPLE_SIZE, sampleLength1_sd_kick)) {
+          currentKick = SD_DATA_SAMPLE_KICK;
+        } else currentKick = STANDARD_KICK;
+        uiState = NAVIGATE;
+        break;
+
+      case SUB_SD_SNARE:
+        if (sd.readSampleToBuffer16Bit(index_sd_snare, buffer2_sd_snare, SAMPLE_SIZE, sampleLength2_sd_snare)) {
+          currentSnare = SD_DATA_SAMPLE_SNARE;
+        } else currentSnare = STANDARD_SNARE;
+        uiState = NAVIGATE;
+        break;
+
+      case SUB_SD_HIHAT:
+        if (sd.readSampleToBuffer16Bit(index_sd_hihat, buffer3_sd_hihat, SAMPLE_SIZE, sampleLength3_sd_hihat)) {
+          currentHihat = SD_DATA_SAMPLE__HIHAT;
+        } else currentHihat = STANDARD_HIHAT;
+        uiState = NAVIGATE;
+        break;
+    }
+  }
+
+  int delta = encoder.getDelta();
+  if (delta != 0) {
+    switch (uiState) {
+      case NAVIGATE:
+        rotatedItem = (MenuItem)((rotatedItem + delta + MENU_COUNT) % MENU_COUNT);
+        if (rotatedItem == MENU_KICK) currentInstrument = KICK;
+        else if (rotatedItem == MENU_SNARE) currentInstrument = SNARE;
+        else if (rotatedItem == MENU_HIHAT) currentInstrument = HIHAT;
+        break;
+
+      case BPM_EDIT:
+        bpm += delta;
+        bpm = constrain(bpm, 40.0f, 300.0f);
+        step_duration_samples = (int)((60.0f / bpm / 4.0f) * sampleRate);
+        break;
+
+      case SUB_SD_KICK:
+        index_sd_kick = constrain(index_sd_kick + delta, 0, sd.fileCount - 1);
+        break;
+
+      case SUB_SD_SNARE:
+        index_sd_snare = constrain(index_sd_snare + delta, 0, sd.fileCount - 1);
+        break;
+
+      case SUB_SD_HIHAT:
+        index_sd_hihat = constrain(index_sd_hihat + delta, 0, sd.fileCount - 1);
+        break;
+    }
+  }
+
+  char key = tus.keypad.getKey();
+  if (key) {
+    int step = tus.mapKeyToStep(key);
+    if (step >= 0 && step < NUM_STEPS) {
+      if (currentInstrument == KICK) kick_steps[step] = !kick_steps[step];
+      else if (currentInstrument == SNARE) snare_steps[step] = !snare_steps[step];
+      else if (currentInstrument == HIHAT) hihat_steps[step] = !hihat_steps[step];
+    }
+  }
+
+  static unsigned long lastDraw = 0;
+  if (millis() - lastDraw > 100) {
+    drawSequencerState();
+    lastDraw = millis();
+  }
+}
+                </code></pre>
+
+        <p>
+  <a href="https://github.com/achibabahaciabi/step-sequencer" target="_blank">
+    📂 View Full Code on GitHub
+  </a>
+</p>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
-            <p>I am Gökalp, a mechanical engineer, and I love to develop softwares, primarily in Java. 
-            After years of working on Cad/Cam softwares, I decided to focus on developing desktop applications. I prefer to code my own libraries instead of using pre-existing ones. The reason behind this is my motivation to have good control over my code and to be more innovative.
-            By the way, I usually find myself playing basketball or electric guitar.</p>
+            <p>
+                I am Gökalp, a mechanical engineer, and I love to develop softwares, primarily in Java.
+                After years of working on Cad/Cam softwares, I decided to focus on developing desktop applications.
+                I prefer to code my own libraries instead of using pre-existing ones.
+                The reason behind this is my motivation to have good control over my code and to be more innovative.
+                By the way, I usually find myself playing basketball or electric guitar.
+            </p>
         </section>
 
-          <section id="contact">
+        <section id="contact">
             <h2>Contact</h2>
-            
             <p><strong>Email:</strong> <a href="mailto:socialgokalp@gmail.com">socialgokalp@gmail.com</a></p>
             <p><strong>Phone:</strong> <a href="tel:+905511909784">+90 551 190 9784</a></p>
         </section>
 
-         <footer>
-        <p>&copy; 2025 Gökalp Kurtul.</p>
-       
-          </footer>
+        <footer>
+            <p>&copy; 2025 Gökalp Kurtul.</p>
+        </footer>
     </main>
 </body>
 </html>
